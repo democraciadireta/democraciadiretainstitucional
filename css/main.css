@@ -23,7 +23,6 @@ body{
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover{
 	color: #fff;
 	background: none;
-	font-weight: 100;
 }
 .navbar-inverse .navbar-brand{
 	font-family: 'Maven Pro', sans-serif;
@@ -32,6 +31,7 @@ body{
 }
 
 .navbar-inverse .navbar-nav>li>a{
+	font-weight: 300;
 	font-size: 20px;
 	color:#b4b9b9;
 }
@@ -60,7 +60,7 @@ body{
 .newsletter .subtitle{
 	color: #fff;
 	font-size: 18px;
-	font-weight: 100;
+	font-weight: 300;
 	margin-bottom: 5px;
 }
 .newsletter .form input{

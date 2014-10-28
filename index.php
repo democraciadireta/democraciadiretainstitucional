@@ -41,7 +41,7 @@
   <div class="row slider">
     <div class="container">
       <div class="newsletter">
-        <h1 class="title">Nenhum político nos representa!</h1>
+        <h1 class="title">Políticos não nos representam!</h1>
         <p class="subtitle">Digite seu email para receber novidades sobre o projeto.</p>
         <form class="form form-inline" role="form">
          <div class="input-group">
