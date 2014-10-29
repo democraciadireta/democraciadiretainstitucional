@@ -128,8 +128,7 @@
         </div>
       </div>
     </div>
-  </div>
-
+  
   <footer>
     <div class="row">
       <div class="container">
