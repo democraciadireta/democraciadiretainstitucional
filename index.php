@@ -6,7 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
+  <meta property="og:title" content="Democracia Direta Consenso Progressivo" />
+<meta property="og:site_name" content="Democracia Direta Consenso Progressivo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://democraciadireta.tk" />
+<meta property="og:image" content="http://democraciadireta.tk/img/og-logo.png" />
+<meta property="fb:admins" content="100001908030248"/>
+<meta property="og:description" content=""/>
+  <link rel="icon" href="favicon.ico">
 
   <title>Democracia Direta</title>
 
@@ -25,7 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Democracia direta</a>
+        <a class="navbar-brand" href="#">Democracia Direta</a>
       </div>
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
