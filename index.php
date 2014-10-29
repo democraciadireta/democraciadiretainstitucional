@@ -124,7 +124,7 @@
            <a href="#contact"><img src="img/icon-twitter.png"></a>
          </div>
          <div class="col-md-4 social">
-          <a href="mailto:fabio@apeiara.com.br" target="blank"><img src="img/icon-mail.png"></a>
+          <a href="mailto:w34521@msn.com" target="blank"><img src="img/icon-mail.png"></a>
         </div>
       </div>
     </div>
