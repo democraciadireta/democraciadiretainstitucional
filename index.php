@@ -43,8 +43,8 @@
       <div class="newsletter newsletter col-md-6 col-md-offset-3">
         <h1 class="title">Políticos não nos representam!</h1>
         <p class="subtitle">Digite seu email para receber novidades sobre o projeto.</p>
-        <input class="col-xs-10 col-md-10" type="text" placeholder="seuemail@email.com.br"/>
-        <button  class="btn col-xs-2 col-md-2"><span class="glyphicon glyphicon-send"></span> Ok</button>
+        <input id="txtNewsletterEmail" class="col-xs-10 col-md-10" type="text" placeholder="seuemail@email.com.br"/>
+        <button id="btnNewsletter"  class="btn col-xs-2 col-md-2"><span class="glyphicon glyphicon-send"></span> Ok</button>
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@
            <a href="https://www.facebook.com/groups/1481925645411763/" target="blank"><img src="img/icon-face.png"></a>
          </div>
          <div class="col-md-4 social">
-           <a href="#"><img src="img/icon-twitter.png"></a>
+           <a href="#contact"><img src="img/icon-twitter.png"></a>
          </div>
          <div class="col-md-4 social">
           <a href="mailto:fabio@apeiara.com.br" target="blank"><img src="img/icon-mail.png"></a>

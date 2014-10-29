@@ -16,4 +16,34 @@ $( window ).ready(function() {
       }
     });
   });
+
+  $("#btnNewsletter").click(function(){
+    var valEmail = $("#txtNewsletterEmail").val();
+    if(IsEmail(valEmail)){
+      $.post( "newsletter.php", { email:  valEmail})
+      .done(function( data ) {
+
+        switch (data) {
+          case "1":
+          alert("Muito obrigado pelo cadastro, a partir de agora lhe manteremos atualizado sobre o projeto!");
+          $("#txtNewsletterEmail").val("");
+          break; 
+          case "1062":
+          alert("Você ja está cadastrado em nosso sistema com esse email.");
+          break; 
+          default: 
+          alert("Ops! Houve algum erro. Por favor nos comunique através dos links na área de contato.");
+        }
+
+      });
+    }else{
+      alert("Email Inválido! Por favor, verifique.");
+    }
+  });
+
+  function IsEmail(email) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(email);
+  }
+
 });
