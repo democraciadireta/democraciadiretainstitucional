@@ -29,34 +29,28 @@
       </div>
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#slider">Home</a></li>
           <li><a href="#about">Sobre</a></li>
-          <li><a href="#contact">Projeto</a></li>
+          <li><a href="#project">Projeto</a></li>
           <li><a href="#contact">Contato</a></li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="row slider">
+  <div id="slider" class="row">
     <div class="container">
-      <div class="newsletter">
+      <div class="newsletter newsletter col-md-6 col-md-offset-3">
         <h1 class="title">Políticos não nos representam!</h1>
         <p class="subtitle">Digite seu email para receber novidades sobre o projeto.</p>
-        <form class="form form-inline" role="form">
-         <div class="input-group">
-           <input type="text" class="form-control " placeholder="seuemail@email.com.br"/>
-           <span class="input-group-btn">
-            <button  class="btn"><span class="glyphicon glyphicon-send"></span> Ok</button>
-          </span>
-        </div>
-      </form>
+        <input class="col-xs-10 col-md-10" type="text" placeholder="seuemail@email.com.br"/>
+        <button  class="btn col-xs-2 col-md-2"><span class="glyphicon glyphicon-send"></span> Ok</button>
+      </div>
     </div>
   </div>
-</div>
 
 
-<div class="row about">
+<div id="about" class="row">
   <div class="container">
     <div class="col-md-4">
       <img src="img/icon-info.png"/>
@@ -86,7 +80,7 @@
         </div>
       </div>
 
-      <div class="row project">
+      <div id="project" class="row">
         <div class="container ">
           <div class="col-md-12">
             <h1>Vem com a gente ajudar a mudar o país!</h1>
@@ -100,12 +94,12 @@
           </div>
         </div>
 
-        <div class="row contact">
+        <div id="contact" class="row">
           <div class="container ">
             <div class="col-md-12">
               <h1>Entre em contato</h1>
-              <p>Não entendeu algo ou gostaria de conversar com a gente? Não deixe de entrar em contato através do formulário abaixo.</p>
-              <form role="form">
+              <p>Não entendeu algo ou gostaria de conversar com a gente? Não deixe de entrar em contato através dos links abaixo.</p>
+              <!--form role="form">
                <div class="col-md-6">
                 <label>Nome</label>
                 <input type="text" class="form-control " placeholder="Nome"/>
@@ -118,25 +112,34 @@
                 <label >Mensagem</label>
                 <textarea class="form-control" rows="3"  placeholder="Mensagem"></textarea>
               </div>
-            </form>
             <div class="col-md-3 col-md-offset-9">
              <button type="button" class="btn btn-link btn-lg">Limpar</button>
              <button type="button" class="btn btn-black btn-lg">Enviar</button>
-           </div>
+           </form-->
          </div>
-       </div>
-     </div>
-
-     <footer>
-      <div class="row">
-        <div class="container">
-          <p>Democracia Direta - 2014 </p>
+         <div class="col-md-4 social">
+           <a href="https://www.facebook.com/groups/1481925645411763/" target="blank"><img src="img/icon-face.png"></a>
+         </div>
+         <div class="col-md-4 social">
+           <a href="#"><img src="img/icon-twitter.png"></a>
+         </div>
+         <div class="col-md-4 social">
+          <a href="mailto:fabio@apeiara.com.br" target="blank"><img src="img/icon-mail.png"></a>
         </div>
       </div>
-    </footer>
+    </div>
+  </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-  </html>
+  <footer>
+    <div class="row">
+      <div class="container">
+        <p>Democracia Direta - 2014 </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
