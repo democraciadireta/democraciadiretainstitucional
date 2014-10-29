@@ -12,7 +12,7 @@
 <meta property="og:url" content="http://democraciadireta.tk" />
 <meta property="og:image" content="http://democraciadireta.tk/img/og-logo.png" />
 <meta property="fb:admins" content="100001908030248"/>
-<meta property="og:description" content=""/>
+<meta property="og:description" content="Somos uma Organização Não Governamental que quer o melhor para o Brasil e sua população como um todo."/>
   <link rel="icon" href="favicon.ico">
 
   <title>Democracia Direta</title>
