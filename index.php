@@ -139,7 +139,7 @@
   <footer>
     <div class="row">
       <div class="container">
-        <p>Democracia Direta - 2014 </p>
+        <p>Democracia Direta - 2014</p>
       </div>
     </div>
   </footer>
